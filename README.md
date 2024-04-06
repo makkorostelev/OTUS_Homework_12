@@ -24,8 +24,10 @@ terraform_data.run_ansible: Creation complete after 3s [id=4fc56b2a-b4ea-560d-a2
 ```
 To get an external ip address:
 kubectl get svc wordpress
+```
 NAME        TYPE           CLUSTER-IP      EXTERNAL-IP       PORT(S)        AGE
 wordpress   LoadBalancer   10.96.177.132   158.160.156.247   80:30933/TCP   3m23s
+```
 
 You can go to http://EXTERNAL-IP and add your wordpress template to that installation :\
 ![Wordpress](https://github.com/makkorostelev/OTUS_Homework_12/blob/main/Screenshots/wordpress.png)
